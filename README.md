@@ -44,5 +44,5 @@ StyleDictionary.registerTransform({
 Note that, currently, line-height is not properly managed via Tokens Studio. Until a solution has been found, the `lineHeight` value is hardcoded to the standard `normal`.
 
 ## To do
-[] Find the most appropriate solution to manage line height tokens in Tokens Studio.
-[] When a token references another token within the same set, it's value is parsed instead of preserving the alias.
+- [ ] Find the most appropriate solution to manage line height tokens in Tokens Studio.
+- [ ] When a token references another token within the same set, it's value is parsed instead of preserving the alias.
