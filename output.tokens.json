@@ -256,9 +256,9 @@
       "rawValue": "{size.base}*4"
     },
     "base": {
-      "value": 8,
+      "value": "8px",
       "type": "sizing",
-      "rawValue": "8"
+      "rawValue": "8px"
     }
   },
   "spacing": {

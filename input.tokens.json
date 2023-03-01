@@ -60,7 +60,7 @@
         "type": "sizing"
       },
       "base": {
-        "value": "8",
+        "value": "8px",
         "type": "sizing"
       }
     },
