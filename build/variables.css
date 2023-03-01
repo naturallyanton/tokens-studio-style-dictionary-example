@@ -1,0 +1,77 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 01 Mar 2023 16:09:49 GMT
+ */
+
+:root {
+  --token-set-order-2: components;
+  --token-set-order-1: theme;
+  --token-set-order-0: global;
+  --black: #000000;
+  --white: #FFFFFF;
+  --font-weight-900: 900;
+  --font-weight-800: 800;
+  --font-weight-700: 700;
+  --font-weight-600: 600;
+  --font-weight-500: 500;
+  --font-weight-400: 400;
+  --font-weight-300: 300;
+  --font-weight-200: 200;
+  --font-weight-100: 100;
+  --font-family-headings: 'GT Walsheim', Arial, sans-serif;
+  --font-family-content: 'Open Sans', Arial, sans-serif;
+  --font-size-base: 1rem;
+  --size-base: 8rem;
+  --red-900: #611010;
+  --red-800: #761414;
+  --red-700: #931818;
+  --red-600: #BE2020;
+  --red-500: #CB4F4F;
+  --red-400: #DC8787;
+  --red-300: #E7AFAF;
+  --red-200: #F1CFCF;
+  --red-100: #F8E7E7;
+  --red-50: #FCF7F7;
+  --font-size-200: var(--font-size-base)*2;
+  --font-size-150: var(--font-size-base)*1.5;
+  --font-size-100: var(--font-size-base);
+  --font-size-80: var(--font-size-base)*0.875;
+  --font-size-70: var(--font-size-base)*0.75;
+  --spacing-base: var(--size-base);
+  --size-400: var(--size-base)*4;
+  --size-200: var(--size-base)*2;
+  --size-100: var(--size-base);
+  --size-50: var(--size-base)/2;
+  --content-lg: var(--font-weight-400) var(--font-size-100)/normal var(--font-family-content);
+  --content-md: var(--font-weight-400) var(--font-size-80)/normal var(--font-family-content);
+  --content-sm: var(--font-weight-400) var(--font-size-70)/normal var(--font-family-content);
+  --color-content-text-xhigh: var(--black);
+  --color-content-background-default: var(--white);
+  --color-danger-text-high-hover: var(--red-800);
+  --color-danger-text-high-default: var(--red-700);
+  --color-danger-text-medium-hover: var(--red-700);
+  --color-danger-text-medium-default: var(--red-600);
+  --color-danger-text-low-hover: var(--red-200);
+  --color-danger-text-low-default: var(--red-100);
+  --color-danger-background-low-pressed: var(--red-400);
+  --color-danger-background-low-hover: var(--red-300);
+  --color-danger-background-low-default: var(--red-200);
+  --color-danger-background-medium-pressed: var(--red-800);
+  --color-danger-background-medium-hover: var(--red-700);
+  --color-danger-background-medium-default: var(--red-600);
+  --p-spacing-base: var(--spacing-base);
+  --spacing-400: var(--spacing-base)*4;
+  --spacing-200: var(--spacing-base)*2;
+  --spacing-100: var(--spacing-base);
+  --spacing-50: var(--spacing-base)/2;
+  --color-content-text-default: var(--color-content-text-xhigh);
+  --color-content-background-xlow: var(--color-content-background-default);
+  --button-error-text-pressed: var(--color-danger-text-low-hover);
+  --button-error-text-hover: var(--color-danger-text-low-hover);
+  --button-error-text-default: var(--color-danger-text-low-default);
+  --button-error-background-pressed: var(--color-danger-background-medium-pressed);
+  --button-error-background-hover: var(--color-danger-background-medium-hover);
+  --button-error-background-default: var(--color-danger-background-medium-default);
+  --p-spacing-400: var(--p-spacing-base)*4;
+  --p-spacing-200: var(--p-spacing-base)*2;
+}
