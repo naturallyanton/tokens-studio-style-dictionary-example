@@ -1,8 +1,8 @@
 ## About
 This repository demonstrates an integration between the Figma plugin [Tokens Studio](https://tokens.studio/), and [Style Dictionary](https://amzn.github.io/style-dictionary/) with some customisation so that the following requirements have been met:
-- A single file of CSS variables is created, containing all primitives (static tokens), alisases (theme tokens) and component tokens.
-- Aliases are not resolved, so that the relationships between tokens (i.e. when a token equals a token) are preserved.
-- Typography composite tokens are properly parsed (i.e. a typography token containing a font weight, font size, line height, and font family is properly parsed preserving aliases).
+- A single file of CSS variables is created, containing all primitives (static tokens), alisases (theme tokens) and component tokens. Check `build/variables.css`.
+- Aliases are not resolved, so that the relationships between tokens (i.e. when a token equals a token) are preserved. For example, `--font-size-200: var(--font-size-base)*2;`.
+- Typography composite tokens are properly parsed (i.e. a typography token containing a font weight, font size, line height, and font family is properly parsed preserving aliases). For example, `--content-lg: var(--font-weight-400) var(--font-size-100)/normal var(--font-family-content);`.
 
 ## Running the repository
 First, install dependencies:
@@ -42,3 +42,7 @@ StyleDictionary.registerTransform({
 });
 ```
 Note that, currently, line-height is not properly managed via Tokens Studio. Until a solution has been found, the `lineHeight` value is hardcoded to the standard `normal`.
+
+## To do
+[] Find the most appropriate solution to manage line height tokens in Tokens Studio.
+[] When a token references another token within the same set, it's value is parsed instead of preserving the alias.
