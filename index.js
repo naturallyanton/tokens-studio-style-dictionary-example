@@ -11,10 +11,10 @@ const StyleDictionary = require('style-dictionary').extend({
         'color/css',
         'typography/shorthand',
       ],
-      buildPath: 'build/',
+      buildPath: 'tokens/',
       files: [
         {
-          destination: 'variables.css',
+          destination: 'tokens.css',
           format: 'css/variables',
         },
       ],
