@@ -3,8 +3,8 @@
 This repository demonstrates an integration between the Figma plugin [Tokens Studio](https://tokens.studio/), and [Style Dictionary](https://amzn.github.io/style-dictionary/) with some customisation so that the following requirements have been met:
 
 - A single file of CSS variables is created, containing all primitives (static tokens), alisases (theme tokens) and component tokens. Check `tokens/tokens.css`.
-- Aliases are not resolved, so that the relationships between tokens (i.e. when a token equals a token) are preserved. For example, `--font-size-200: var(--font-size-base)*2;`.
-- Typography composite tokens are properly parsed (i.e. a typography token containing a font weight, font size, line height, and font family is properly parsed preserving aliases). For example, `--content-lg: var(--font-weight-400) var(--font-size-100)/normal var(--font-family-content);`.
+- Aliases are not parsed, so that the relationships between tokens (i.e. when a token equals a token) are preserved. For example, `--font-size-200: var(--font-size-base)*2;`.
+- Typography composite tokens preserve aliases (i.e. a typography token containing a font weight, font size, line height, and font family). For example, `--content-lg: var(--font-weight-400) var(--font-size-100)/normal var(--font-family-content);`.
 
 ## Running the repository
 
