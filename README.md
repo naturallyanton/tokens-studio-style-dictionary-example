@@ -11,6 +11,11 @@ yarn install
 ```
 Paste the JSON exported from the Tokens Studio plugin to the `input.tokens.json` file.
 
+Compile the input tokens into a format compatible with Style Dictionary:
+```
+yarn build-tokens
+```
+
 Compile the generated `output.tokens.json` into CSS variables running
 ````
 node index
