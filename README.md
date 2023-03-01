@@ -60,7 +60,7 @@ StyleDictionary.registerTransform({
 });
 ```
 
-Note that, currently, line-height is not properly managed via Tokens Studio. Until a solution has been found, the `lineHeight` value is hardcoded to the standard `normal`.
+Note that, currently, line-height is not properly managed via Tokens Studio. Until a solution is found, the `lineHeight` value is hardcoded to the standard `normal`.
 
 ## To do
 
