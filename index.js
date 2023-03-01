@@ -7,7 +7,7 @@ const StyleDictionary = require('style-dictionary').extend({
         'name/cti/kebab',
         'time/seconds',
         'content/icon',
-        'size/rem',
+        'size/px',
         'color/css',
         'typography/shorthand',
       ],
